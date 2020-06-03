@@ -48,7 +48,7 @@ Aside
 ```{r}
 # Build interactive network of positions colored by section
 # and connected if they occurred in the same year
-#datadrivencv::build_network_logo(CV$entries_data)
+datadrivencv::build_network_logo(CV$entries_data)
 ```
 
 
@@ -60,20 +60,11 @@ if(params$pdf_mode){
 }
 ```
 
-Contact {#contact}
+Contacto {#contact}
 --------------------------------------------------------------------------------
 
 ```{r}
 CV %>% print_contact_info()
-```
-
-
-
-Language Skills {#skills}
---------------------------------------------------------------------------------
-
-```{r}
-CV %>% print_skill_bars()
 ```
 
 
