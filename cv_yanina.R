@@ -7,4 +7,4 @@ datadrivencv::use_datadriven_cv(
 )
 
 
-#Mi google sheet: https://docs.google.com/spreadsheets/d/1snuLpUOmsGZO_k4_9NqTx789AbliG_Fhj2leqr7ocIc/edit#gid=1730172225
+# Mi google sheet: https://docs.google.com/spreadsheets/d/1snuLpUOmsGZO_k4_9NqTx789AbliG_Fhj2leqr7ocIc/edit#gid=340636497
