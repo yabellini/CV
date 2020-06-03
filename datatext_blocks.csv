@@ -1,0 +1,9 @@
+Id used for finding text block,Contents of text block. Supports markdown formatting.
+loc,text
+intro,"Soy investigadora en Instituto Nacional de Tecnología Agropecuaria y me dedico a aplicar la ciencia de datos al sector agropecuario. Trabajo en una Estación Experimental Agropecuaria, por lo que mis desarrollos y soluciones están relacionados con la realidad productiva de la provincia de La Pampa, donde vivo con mi esposo y mis dos hermosos hijos.  
+Soy muy activa en la Comunidad R, formo parte del Equipo Global de R-Ladies y soy fundadora y organizadora del Capítulo de R-Ladies Santa Rosa. Soy cofundadora y presidenta de LatinR y formé parte del equipo que tradujo diversos materiales de R al español (ej. R para Ciencia de Datos, Cheat Sheets de RStudio).
+Relaciono mi trabajo en INTA con mi trabajo en la Comunidad R buscando hacer que mi ciencia sea lo más reproducible y abierta posible utilizando herramientas informáticas abiertas. Soy presidenta, desde 2016, del Congreso Argentino de Agroinformática (CAI) y presidenta general en 2020 de las Jornadas Argentinas de Informática e Investigación Operativa (JAIIO).
+"
+industy_experience_aside,
+teaching_experience_aside,"Disfruto mucho enseñando.Dicto cursos y escribo material educativo sobre mis temas de investigación. Soy cofundadora de [MetaDocencia](https://metadocencia.netlify.app/), una organización educativa abierta, gratuita, voluntaria y sin fines de lucro que enseña a docentes herramientas para enseñar on-line. Lidero traducciones al español de material de enseñanza de tecnología como [Teaching Tech Together](https://teachtogether.tech/)"
+data_science_writing_aside,"Además de dar charlas, escribo regularmente [en mi página personal](https://yabellini.netlify.app/es/) tanto en Inglés como en Español."
