@@ -68,13 +68,10 @@ CV %>% print_contact_info()
 ```
 
 
-
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
 
 Hecho con el paquete de R [**pagedown**](https://github.com/rstudio/pagedown). 
-
-El código fuente está disponible en [github.comyabellini/cv](https://github.com/yabellini/CV).
 
 Última actualización `r Sys.Date()`.
 
@@ -93,16 +90,24 @@ CV %<>% print_text_block("intro")
 
 
 
-Educación {data-icon=graduation-cap data-concise=true}
+Educación formal {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
 
 ```{r}
 CV %<>% print_section('education')
 ```
 
+Educación continua seleccionada {data-icon=graduation-cap data-concise=true}
+--------------------------------------------------------------------------------
 
+```{r}
+CV %<>% print_section('education_continua')
+```
 
-Experiencia en Investigación {data-icon=laptop}
+<!-- These breaks just force a new page so section doesnt get cut off -->
+<br>
+
+Experiencia en Investigación y Extensión{data-icon=laptop}
 --------------------------------------------------------------------------------
 
 ```{r}
@@ -113,8 +118,6 @@ CV %<>% print_section('research_positions')
 
 <!-- These breaks just force a new page so section doesnt get cut off -->
 <br>
-
-
 
 Experiencia Docente Seleccionada {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
@@ -129,6 +132,12 @@ CV %<>% print_text_block('teaching_experience_aside')
 CV %<>% print_section('teaching_positions')
 ```
 
+Libros y traducciones {data-icon=book}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_section('books')
+```
 
 
 Charlas seleccionadas {data-icon=chart-line}
@@ -145,17 +154,12 @@ CV %<>% print_section('data_science_writings')
 ```
 
 
-
-Notas de prensa seleccionadas(sobre mi)  {data-icon=newspaper}
+Otras publicaciones seleccionadas {data-icon=book}
 --------------------------------------------------------------------------------
 
 ```{r}
-CV %<>% print_section('about_me_press')
+CV %<>% print_section('academic_articles')
 ```
-
-
-<br>
-<br>
 
 
 Notas de prensa seleccionadas(escritas por mi)  {data-icon=newspaper}
@@ -166,12 +170,11 @@ CV %<>% print_section('by_me_press')
 ```
 
 
-
-Libros y otras publicaciones seleccionadas {data-icon=book}
+Notas de prensa seleccionadas(sobre mi)  {data-icon=newspaper}
 --------------------------------------------------------------------------------
 
 ```{r}
-CV %<>% print_section('academic_articles')
+CV %<>% print_section('about_me_press')
 ```
 
 

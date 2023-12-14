@@ -18,7 +18,7 @@ knitr::opts_chunk$set(
 )
 
 library(magrittr) # For the pipe
-source("CV_printing_functions.R")
+source("cv_printing_functions.r")
 
 # Read in all data and initialize a CV printer object
 CV <- create_CV_object(
@@ -48,7 +48,7 @@ Aside
 ```{r}
 # Build interactive network of positions colored by section
 # and connected if they occurred in the same year
-#datadrivencv::build_network_logo(CV$entries_data)
+datadrivencv::build_network_logo(CV$entries_data)
 ```
 
 
@@ -124,12 +124,12 @@ Industry Experience {data-icon=suitcase}
 --------------------------------------------------------------------------------
 
 ::: aside
-```{r eval=FALSE, include=FALSE}
+```{r}
 CV %<>% print_text_block('industy_experience_aside')
 ```
 :::
 
-```{r eval=FALSE, include=FALSE}
+```{r}
 CV %<>% print_section('industry_positions')
 ```
 
@@ -201,3 +201,4 @@ CV %<>% print_section('academic_articles')
 ```{r}
 CV %<>% print_links()
 ```
+
